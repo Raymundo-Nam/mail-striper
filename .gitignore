@@ -151,3 +151,4 @@ vite.config.ts.timestamp-*
 dist/
 tests/
 scripts/
+demo/
