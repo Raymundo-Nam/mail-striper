@@ -1,0 +1,13 @@
+{
+  "name": "mail-striper",
+  "version": "0.1.4",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "start": "node scripts/serve.mjs"
+  },
+  "dependencies": { "tldts": "^7.0.25", "punycode": "^2.3.1" },
+  "devDependencies": { "esbuild": "^0.25.0", "jsdom": "^26.0.0" }
+}
